@@ -44,6 +44,35 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+
+    <header>
+        <ul>
+            <li>
+                <a href="#">Link</a>
+            </li>
+            <li>
+                <a href="#">Link</a>
+            </li>
+            <li>
+                <a href="#">Link</a>
+            </li>
+            <li>
+                <a href="#">Link</a>
+            </li>
+        </ul>
+    </header>
+
+    <main>
+        <div class="main-content">
+
+            <!-- Print answer and question for each faq in the array -->
+            <?php foreach ($faq as $singleFaq) { ?> 
+                <h3 class="faq-question"> <?php echo $singleFaq['question']; ?> </h3>
+                <p class="faq-answer"> <?php echo $singleFaq['answer']; ?> </p>
+            <?php } ?> 
+
+        </div>
+    </main>
     
 </body>
 </html>
