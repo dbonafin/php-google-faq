@@ -40,27 +40,42 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Google faq</title>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
+    <title>Google faq</title>
 </head>
 <body>
 
     <header>
+
+    <div class="logo">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg" alt="google logo">
+
+        <h2>Privacy & Termini</h2>
+    </div>
+
+    <nav>
         <ul>
             <li>
-                <a href="#">Link</a>
+                <a href="#">Introduzione</a>
             </li>
             <li>
-                <a href="#">Link</a>
+                <a href="#">Norme sulla privacy</a>
             </li>
             <li>
-                <a href="#">Link</a>
+                <a href="#">Termini di servizio</a>
             </li>
             <li>
-                <a href="#">Link</a>
+                <a href="#">Tecnologie</a>
+            </li>
+            <li>
+                <a href="#">Domande frequenti</a>
             </li>
         </ul>
+    </nav>
     </header>
+
+    <hr>
 
     <main>
         <div class="main-content">

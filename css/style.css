@@ -1,4 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Common */
+
+body {
+    font-family: 'Libre Franklin', sans-serif;
+}
+
+/* Header */
+header {
+    padding: 20px;
+    padding-bottom: 10px;
+}
+
+header img {
+    width: 100px;
+    margin-right: 20px;
+}
+
+.logo {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+ul li a {
+    color: inherit;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+/* Main */
 .main-content {
     width: 60%;
-    margin: 0 auto;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.main-content p {
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-size: 14px;
 }
