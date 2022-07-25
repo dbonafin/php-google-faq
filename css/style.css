@@ -38,11 +38,21 @@ ul li a {
     text-decoration: none;
 }
 
+.active {
+    color: #3367d6;
+    border-bottom: 3px solid #3367d6;
+    padding-bottom: 8px;
+}
+
 /* Main */
 .main-content {
     width: 60%;
     margin: auto;
     margin-top: 30px;
+}
+
+.main-content h3 {
+    font-weight: 700;
 }
 
 .main-content p {
